@@ -1,0 +1,24 @@
+{
+    "name": "trinix/pagination",
+    "description": "generic pagination",
+    "require": {
+        "pagerfanta/pagerfanta": "1.0.*@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.4.*@dev",
+        "mockery/mockery": "0.9.*@dev"
+    },
+    "authors": [
+        {
+            "name": "Erick Leandro",
+            "email": "erick.leandro.lima@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+      "psr-4": {"Trinix\\Pagination\\": "src"}
+    },
+    "autoload-dev": {
+      "psr-4": {"Trinix\\Pagination\\Test\\": "test"}
+    }
+}
